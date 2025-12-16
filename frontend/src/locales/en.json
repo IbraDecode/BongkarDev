@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "BongkarDev",
+    "subtitle": "DevTools for Chromium via CDP proxy"
+  },
+  "layout": {
+    "header": {
+      "title": "BongkarDev DevTools",
+      "subtitle": "Real-time inspection through WebSocket proxy"
+    },
+    "sidebar": {
+      "connection": "Connection",
+      "targets": "Browser Targets",
+      "refresh": "Reload targets",
+      "status": "Status"
+    },
+    "main": {
+      "placeholder": "Select a target to start inspecting. Network, Console, Elements, Sources, and Performance panels will appear after connecting."
+    }
+  },
+  "buttons": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "refresh": "Refresh"
+  },
+  "connection": {
+    "status": {
+      "idle": "Idle",
+      "connecting": "Connecting",
+      "connected": "Connected",
+      "error": "Failed"
+    },
+    "active": "Connected to {target}",
+    "none": "No target selected"
+  },
+  "targets": {
+    "empty": "No Chromium targets available",
+    "title": "Active tabs/targets"
+  }
+}

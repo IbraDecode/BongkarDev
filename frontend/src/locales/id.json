@@ -1,0 +1,40 @@
+{
+  "app": {
+    "title": "BongkarDev",
+    "subtitle": "DevTools untuk Chromium melalui proxy CDP"
+  },
+  "layout": {
+    "header": {
+      "title": "BongkarDev DevTools",
+      "subtitle": "Inspeksi real-time via proxy WebSocket"
+    },
+    "sidebar": {
+      "connection": "Koneksi",
+      "targets": "Target Browser",
+      "refresh": "Muat ulang target",
+      "status": "Status"
+    },
+    "main": {
+      "placeholder": "Pilih target untuk memulai inspeksi. Panel Network, Console, Elements, Sources, dan Performance akan muncul setelah terhubung."
+    }
+  },
+  "buttons": {
+    "connect": "Hubungkan",
+    "disconnect": "Putuskan",
+    "refresh": "Segarkan"
+  },
+  "connection": {
+    "status": {
+      "idle": "Idle",
+      "connecting": "Menyambungkan",
+      "connected": "Terhubung",
+      "error": "Gagal"
+    },
+    "active": "Terhubung ke {target}",
+    "none": "Belum ada target dipilih"
+  },
+  "targets": {
+    "empty": "Tidak ada target yang tersedia dari Chromium",
+    "title": "Daftar tab/target aktif"
+  }
+}
